@@ -110,13 +110,11 @@ input {
     text-align: center;
 }
 
-/* Glowing Input Focus */
 input:focus {
     outline: none;
     box-shadow: 0 0 10px #00ff00;
 }
 
-/* CRT Flickering Effect */
 @keyframes flicker {
     0% { opacity: 1; }
     50% { opacity: 0.8; }
